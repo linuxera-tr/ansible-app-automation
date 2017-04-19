@@ -1,12 +1,12 @@
 [webservers]
-10.0.0.20
+eapweb11.linuxera.hq
 
 [eap-domains]
-10.0.0.30 eap_node_name=master
+eapdomain11.linuxera.hq eap_node_name=master
 
 [eap-nodes]
-10.0.0.40 eap_node_name=eap1
-#10.0.0.41 eap_node_name=eap2
+eapnode11.linuxera.hq eap_node_name=eap1
+#eapnode12.linuxera.hq eap_node_name=eap2
 
 [eap:children]
 eap-domains
