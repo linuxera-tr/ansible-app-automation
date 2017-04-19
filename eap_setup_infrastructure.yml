@@ -1,6 +1,7 @@
 ---
 - hosts: webservers
-  remote_user: root
+  become: true
+  remote_user: user
   vars:
     temp_path: /tmp
   roles:
